@@ -10,7 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="400f04cb-07ce-4370-9f92-c27a30810792" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/GrpcDemo.sln" beforeDir="false" afterPath="$PROJECT_DIR$/GrpcDemo.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GrpcClient/Protos/greet.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GrpcDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GrpcDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrpcClient/GrpcClient.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/GrpcClient/GrpcClient.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrpcClient/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GrpcClient/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +38,8 @@
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
@@ -48,6 +53,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     ".NET Launch Settings Profile.GrpcDemo: http.executor": "Run",
+    ".NET Project.GrpcClient.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
@@ -58,7 +64,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.GrpcDemo: http">
+  <component name="RunManager" selected="Multi-Launch.Multi-Launch: GrpcDemo">
+    <configuration name="Unnamed" type="CompoundRunConfigurationType">
+      <toRun name="GrpcDemo: http" type="LaunchSettings" />
+      <toRun name="GrpcClient" type="DotNetProject" />
+      <method v="2" />
+    </configuration>
     <configuration name="GrpcClient" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -107,6 +118,42 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Multi-Launch: GrpcDemo" type="com.intellij.execution.configurations.multilaunch" factoryName="MultiLaunchConfiguration">
+      <rows>
+        <ExecutableRowSnapshot>
+          <option name="condition">
+            <ConditionSnapshot>
+              <option name="type" value="immediately" />
+            </ConditionSnapshot>
+          </option>
+          <option name="executable">
+            <ExecutableSnapshot>
+              <option name="id" value="runConfig:.NET Launch Settings Profile.GrpcDemo: https" />
+            </ExecutableSnapshot>
+          </option>
+        </ExecutableRowSnapshot>
+        <ExecutableRowSnapshot>
+          <option name="condition">
+            <ConditionSnapshot>
+              <option name="type" value="immediately" />
+            </ConditionSnapshot>
+          </option>
+          <option name="executable">
+            <ExecutableSnapshot>
+              <option name="id" value="runConfig:.NET Project.GrpcClient" />
+            </ExecutableSnapshot>
+          </option>
+        </ExecutableRowSnapshot>
+      </rows>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.GrpcDemo: http" />
+      <item itemvalue=".NET Launch Settings Profile.GrpcDemo: https" />
+      <item itemvalue=".NET Project.GrpcClient" />
+      <item itemvalue="Compound.Unnamed" />
+      <item itemvalue="Multi-Launch.Multi-Launch: GrpcDemo" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -116,7 +163,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730053862955</updated>
-      <workItem from="1730053865120" duration="15234000" />
+      <workItem from="1730053865120" duration="16602000" />
     </task>
     <servers />
   </component>
